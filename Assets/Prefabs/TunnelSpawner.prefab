@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3585528653487398169
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3585528653487398171}
+  - component: {fileID: 3585528653487398170}
+  m_Layer: 0
+  m_Name: TunnelSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3585528653487398171
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3585528653487398169}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &3585528653487398170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3585528653487398169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f33bd1458c00e14289aeec7e87b38ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NormalTile: {fileID: 5516995822048614880, guid: 5b9d2863dc843604f9268e873d6580a5, type: 3}
+  HorizontalWallZ: {fileID: 9112358869256497856, guid: 55fa9c610f45806429f0188f96056c9d, type: 3}
+  HorizontalWallX: {fileID: 4842479915797907205, guid: 4a6fc228f4c4cf341aef3648f81efde3, type: 3}
+  RoomCreator: {fileID: 3324135202305265589, guid: 7d2831a5db2d15749bea2f03d2cda3b0, type: 3}
+  MinTilesX: 4
+  MinTilesZ: 4
+  MaxTilesX: 10
+  MaxTilesZ: 4

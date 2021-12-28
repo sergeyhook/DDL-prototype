@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3256993617273535974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3256993617273535968}
+  - component: {fileID: 3256993617273535975}
+  m_Layer: 0
+  m_Name: Dungeon Generator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3256993617273535968
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3256993617273535974}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3256993617273535975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3256993617273535974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d04cffdb838a1042acd1d379dbcd3ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  width: 20
+  height: 15
+  minRooms: 5
+  maxRooms: 7
+  totalRooms: 0
+  direction:
+  - {x: 0, y: 1}
+  - {x: 0, y: -1}
+  - {x: 1, y: 0}
+  - {x: -1, y: 0}
+  newRooms: []
+  roomPreFabs:
+  - {fileID: 7501312982377252862, guid: 6b948700aee031645a4c20eaf80ecfbe, type: 3}
+  - {fileID: 4853963065727644720, guid: 4a7ebb9104fa7654f8df5372ad96a22b, type: 3}
+  - {fileID: 7501312982377252862, guid: d74f8ddf4125ced4b85e696e0a5b2095, type: 3}
+  startRoom: {fileID: 7501312982377252862, guid: d12b438933ac15343b3c691392afc7f5,
+    type: 3}
+  treasureRoom: {fileID: 7501312982377252862, guid: c411e44d58ca39742a57a8594470d263,
+    type: 3}
